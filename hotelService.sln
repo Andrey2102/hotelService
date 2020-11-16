@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hotelService", "hotelService.csproj", "{09EFC8AD-B3A8-478D-AF61-E6AAA14605F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hotelService", "hotelService.csproj", "{09EFC8AD-B3A8-478D-AF61-E6AAA14605F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "..\Data\Data.csproj", "{34EF09F2-D55C-4689-8250-466113EEE37F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entites", "..\Entites\Entites.csproj", "{6322EC47-1AA2-4FE3-9679-003FBE584ECF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{09EFC8AD-B3A8-478D-AF61-E6AAA14605F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09EFC8AD-B3A8-478D-AF61-E6AAA14605F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09EFC8AD-B3A8-478D-AF61-E6AAA14605F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34EF09F2-D55C-4689-8250-466113EEE37F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34EF09F2-D55C-4689-8250-466113EEE37F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34EF09F2-D55C-4689-8250-466113EEE37F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34EF09F2-D55C-4689-8250-466113EEE37F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6322EC47-1AA2-4FE3-9679-003FBE584ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6322EC47-1AA2-4FE3-9679-003FBE584ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6322EC47-1AA2-4FE3-9679-003FBE584ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6322EC47-1AA2-4FE3-9679-003FBE584ECF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
