@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adm\\source\\repos\\hotelService\\hotelService.csproj": {}
+    "C:\\Users\\adm\\source\\repos\\hotelService\\Data\\Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adm\\source\\repos\\Data\\Data.csproj": {
+    "C:\\Users\\adm\\source\\repos\\hotelService\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adm\\source\\repos\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\adm\\source\\repos\\hotelService\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\adm\\source\\repos\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\adm\\source\\repos\\hotelService\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adm\\source\\repos\\Data\\obj\\",
+        "outputPath": "C:\\Users\\adm\\source\\repos\\hotelService\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\adm\\source\\repos\\Entites\\Entites.csproj": {
-                "projectPath": "C:\\Users\\adm\\source\\repos\\Entites\\Entites.csproj"
+              "C:\\Users\\adm\\source\\repos\\hotelService\\Entites\\Entites.csproj": {
+                "projectPath": "C:\\Users\\adm\\source\\repos\\hotelService\\Entites\\Entites.csproj"
               }
             }
           }
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Users\\adm\\source\\repos\\Entites\\Entites.csproj": {
+    "C:\\Users\\adm\\source\\repos\\hotelService\\Entites\\Entites.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adm\\source\\repos\\Entites\\Entites.csproj",
+        "projectUniqueName": "C:\\Users\\adm\\source\\repos\\hotelService\\Entites\\Entites.csproj",
         "projectName": "Entites",
-        "projectPath": "C:\\Users\\adm\\source\\repos\\Entites\\Entites.csproj",
+        "projectPath": "C:\\Users\\adm\\source\\repos\\hotelService\\Entites\\Entites.csproj",
         "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adm\\source\\repos\\Entites\\obj\\",
+        "outputPath": "C:\\Users\\adm\\source\\repos\\hotelService\\Entites\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,62 +83,6 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\adm\\source\\repos\\hotelService\\hotelService.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\adm\\source\\repos\\hotelService\\hotelService.csproj",
-        "projectName": "hotelService",
-        "projectPath": "C:\\Users\\adm\\source\\repos\\hotelService\\hotelService.csproj",
-        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adm\\source\\repos\\hotelService\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\Users\\adm\\source\\repos\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\adm\\source\\repos\\Data\\Data.csproj"
-              }
-            }
           }
         },
         "warningProperties": {

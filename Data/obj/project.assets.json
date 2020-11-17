@@ -2,19 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Entites": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Data.dll": {}
-        }
-      },
       "Entites/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -28,11 +15,6 @@
     }
   },
   "libraries": {
-    "Data/1.0.0": {
-      "type": "project",
-      "path": "../Data/Data.csproj",
-      "msbuildProject": "../Data/Data.csproj"
-    },
     "Entites/1.0.0": {
       "type": "project",
       "path": "../Entites/Entites.csproj",
@@ -41,7 +23,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Data >= 1.0.0"
+      "Entites >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -50,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adm\\source\\repos\\hotelService\\hotelService.csproj",
-      "projectName": "hotelService",
-      "projectPath": "C:\\Users\\adm\\source\\repos\\hotelService\\hotelService.csproj",
+      "projectUniqueName": "C:\\Users\\adm\\source\\repos\\hotelService\\Data\\Data.csproj",
+      "projectName": "Data",
+      "projectPath": "C:\\Users\\adm\\source\\repos\\hotelService\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adm\\source\\repos\\hotelService\\obj\\",
+      "outputPath": "C:\\Users\\adm\\source\\repos\\hotelService\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,8 +52,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\adm\\source\\repos\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\adm\\source\\repos\\Data\\Data.csproj"
+            "C:\\Users\\adm\\source\\repos\\hotelService\\Entites\\Entites.csproj": {
+              "projectPath": "C:\\Users\\adm\\source\\repos\\hotelService\\Entites\\Entites.csproj"
             }
           }
         }
